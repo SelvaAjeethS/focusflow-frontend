@@ -4,6 +4,28 @@
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live application here: **[FocusFlow Live](https://focusflow-frontend-mocha.vercel.app/)**
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](./public/screenshots/landing-page.png)
+
+### Dashboard (Desktop)
+![Dashboard Web](./public/screenshots/dashboard-web.png)
+
+### Dashboard (Tablet)
+![Dashboard Tab](./public/screenshots/dashboard-tab.png)
+
+### Login Page
+![Login Page](./public/screenshots/login-page.png)
+
+---
+
 ## ✨ Key Features
 
 - **🚀 Premium Dashboard**: A beautiful, high-tension interface for managing tasks.
