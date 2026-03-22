@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 FocusFlow
 
-## Getting Started
+**FocusFlow** is a high-performance, modern task management dashboard designed for peak productivity. Built with a focus on speed, aesthetics, and user experience, it provides a seamless interface for managing your daily workflow.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Key Features
+
+- **🚀 Premium Dashboard**: A beautiful, high-tension interface for managing tasks.
+- **🛠️ Full CRUD Operations**: Create, view, edit, and delete tasks with ease.
+- **🔍 Advanced Filtering**: Filter tasks by status, priority, or search keywords.
+- **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
+- **🌗 Theme Intelligence**: Built-in support for Light and Dark modes with system sync.
+- **⚡ Real-time Feedback**: Instant notifications for all actions via React Hot Toast.
+- **📄 Pagination**: Smooth handling of large task lists.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Components**: [Radix UI](https://www.radix-ui.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+### State & Utilities
+- **Transitions/Animations**: [Framer Motion](https://www.framer.com/motion/) (if used) / Radix Primitives
+- **API Handling**: [Axios](https://axios-http.com/)
+- **Notifications**: [React Hot Toast](https://react-hot-toast.com/)
+- **Class Merging**: `tailwind-merge`, `clsx`, `class-variance-authority`
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18.x or higher
+- npm / yarn / pnpm
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/focusflow.git
+   cd focusflow
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**:
+   Create a `.env.local` file in the root directory and add your backend API URL:
+   ```env
+   NEXT_PUBLIC_API_URL=your_api_url_here
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the app**:
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/            # Next.js App Router (Pages & Layouts)
+├── components/     # Reusable UI Components
+│   ├── ui/         # Base Radix + Tailwind components
+│   └── ...         # Feature-specific components
+├── context/        # React Context (Auth, Theme, etc.)
+├── hooks/          # Custom React Hooks
+├── services/       # API services and Axios configuration
+├── types/          # TypeScript interfaces and types
+└── utils/          # Helper functions and utilities
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is licensed under the MIT License.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed with ❤️ by [Selvaajeeth](https://github.com/selvaajeeth)
